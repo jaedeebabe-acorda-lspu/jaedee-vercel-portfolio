@@ -204,13 +204,13 @@ export const projects = [
     description:
       "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Numquam, perspiciatis molestiae. Deleniti accusamus incidunt sapiente perspiciatis odio voluptate? Veniam aut officiis ducimus reiciendis debitis hic deleniti libero laboriosam ea praesentium!",
     image:
-      "https://raw.githubusercontent.com/mhardev/mhardev-v2/main/src/images/Projects/MOTO-JEN/moto-jen-admin.png",
+      "https://raw.githubusercontent.com/jaedeebabe-acorda-lspu/jaedee-vercel-portfolio/main/src/images/Projects/2DArt/ibisPaintX/20th%20bday%20Bee.png",
     tags: [
       "ibis Paint X",
       "2D Arts",
     ],
     category: "2d art",
-    webapp: "https://mhardev-old.vercel.app/",
+    webapp: "https://raw.githubusercontent.com/jaedeebabe-acorda-lspu/jaedee-vercel-portfolio/main/src/images/Projects/2DArt/ibisPaintX/20th%20bday%20Bee.png",
   },
   {
     id: 4,
@@ -219,13 +219,13 @@ export const projects = [
     description:
       "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Numquam, perspiciatis molestiae. Deleniti accusamus incidunt sapiente perspiciatis odio voluptate? Veniam aut officiis ducimus reiciendis debitis hic deleniti libero laboriosam ea praesentium!",
     image:
-      "https://raw.githubusercontent.com/mhardev/mhardev-v2/main/src/images/Projects/MOTO-JEN/moto-jen-admin.png",
+      "https://raw.githubusercontent.com/jaedeebabe-acorda-lspu/jaedee-vercel-portfolio/main/src/images/Projects/2DArt/ibisPaintX/20th%20bday%20ryn%20x%20bee.jpg.png",
     tags: [
       "ibis Paint X",
       "2D Arts",
     ],
     category: "2d art",
-    webapp: "https://mhardev-old.vercel.app/",
+    webapp: "https://raw.githubusercontent.com/jaedeebabe-acorda-lspu/jaedee-vercel-portfolio/main/src/images/Projects/2DArt/ibisPaintX/20th%20bday%20ryn%20x%20bee.jpg.png",
   },
   {
     id: 5,
@@ -234,28 +234,28 @@ export const projects = [
     description:
       "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Numquam, perspiciatis molestiae. Deleniti accusamus incidunt sapiente perspiciatis odio voluptate? Veniam aut officiis ducimus reiciendis debitis hic deleniti libero laboriosam ea praesentium!",
     image:
-      "https://raw.githubusercontent.com/mhardev/mhardev-v2/main/src/images/Projects/MOTO-JEN/moto-jen-admin.png",
+      "https://raw.githubusercontent.com/jaedeebabe-acorda-lspu/jaedee-vercel-portfolio/main/src/images/Projects/2DArt/ibisPaintX/20th%20bday%20ryn%20x%20hannie.jpg.png",
     tags: [
       "ibis Paint X",
       "2D Arts",
     ],
     category: "2d art",
-    webapp: "https://mhardev-old.vercel.app/",
+    webapp: "https://raw.githubusercontent.com/jaedeebabe-acorda-lspu/jaedee-vercel-portfolio/main/src/images/Projects/2DArt/ibisPaintX/20th%20bday%20ryn%20x%20hannie.jpg.png",
   },
   {
     id: 6,
-    title: "20th Birthday Ryn X Kyo",
+    title: "20th Birthday Ryn X Kyou",
     date: "Feb 2023 - Jan 2024",
     description:
       "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Numquam, perspiciatis molestiae. Deleniti accusamus incidunt sapiente perspiciatis odio voluptate? Veniam aut officiis ducimus reiciendis debitis hic deleniti libero laboriosam ea praesentium!",
     image:
-      "https://raw.githubusercontent.com/mhardev/mhardev-v2/main/src/images/Projects/MOTO-JEN/moto-jen-admin.png",
+      "https://raw.githubusercontent.com/jaedeebabe-acorda-lspu/jaedee-vercel-portfolio/main/src/images/Projects/2DArt/ibisPaintX/20th%20bday%20ryn%20x%20kyou.jpg.png",
     tags: [
       "ibis Paint X",
       "2D Arts",
     ],
     category: "2d art",
-    webapp: "https://mhardev-old.vercel.app/",
+    webapp: "https://raw.githubusercontent.com/jaedeebabe-acorda-lspu/jaedee-vercel-portfolio/main/src/images/Projects/2DArt/ibisPaintX/20th%20bday%20ryn%20x%20kyou.jpg.png",
   },
   {
     id: 7,
@@ -264,12 +264,12 @@ export const projects = [
     description:
       "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Numquam, perspiciatis molestiae. Deleniti accusamus incidunt sapiente perspiciatis odio voluptate? Veniam aut officiis ducimus reiciendis debitis hic deleniti libero laboriosam ea praesentium!",
     image:
-      "https://raw.githubusercontent.com/mhardev/mhardev-v2/main/src/images/Projects/MOTO-JEN/moto-jen-admin.png",
+      "https://raw.githubusercontent.com/jaedeebabe-acorda-lspu/jaedee-vercel-portfolio/main/src/images/Projects/2DArt/ibisPaintX/20th%20bday%20ryn%20x%20reve.jpg.png",
     tags: [
       "ibis Paint X",
       "2D Arts",
     ],
     category: "2d art",
-    webapp: "https://mhardev-old.vercel.app/",
+    webapp: "https://raw.githubusercontent.com/jaedeebabe-acorda-lspu/jaedee-vercel-portfolio/main/src/images/Projects/2DArt/ibisPaintX/20th%20bday%20ryn%20x%20reve.jpg.png",
   },
 ];
