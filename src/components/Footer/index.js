@@ -1,7 +1,6 @@
 import styled from "styled-components";
 import FacebookIcon from "@mui/icons-material/Facebook";
 import TwitterIcon from "@mui/icons-material/Twitter";
-import { ReactComponent as DiscordIcon } from "../../images/Footer/discord.svg";
 import { Bio } from "../../data/constant";
 
 const FooterContainer = styled.div`
@@ -61,7 +60,6 @@ function Footer() {
         <SocialMediaIcons>
           <SocialMediaIcon href={Bio.facebook} target="display"><FacebookIcon /></SocialMediaIcon>
           <SocialMediaIcon href={Bio.twitter} target="display"><TwitterIcon /></SocialMediaIcon>
-          <SocialMediaIcon href={Bio.discord} target="display"><DiscordIcon /></SocialMediaIcon>
         </SocialMediaIcons>
         <Copyright>
           &copy; 2024 Acorda J. All rights reserved.

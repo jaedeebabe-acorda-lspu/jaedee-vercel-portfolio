@@ -10,7 +10,6 @@ export const Bio = {
     "It is my outmost desire to work in an institution wherein I can use my skills, experiences and knowledge in performing different tasks and duties as a professional.",
   resume:
     "https://drive.google.com/file/d/1aC06OfVn1_hTnwvX9gTjdXNGdZiU6VfI/view?usp=sharing",
-  discord: "https://www.linkedin.com/in/joshua-mhar-alcubilla-3506332b1/",
   twitter: "https://twitter.com/satsukii_onee",
   facebook: "https://www.facebook.com/Satsukii.Onee/",
 };
