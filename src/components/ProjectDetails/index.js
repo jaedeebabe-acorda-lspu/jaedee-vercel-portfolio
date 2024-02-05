@@ -23,7 +23,7 @@ width: 100%;
 border-radius: 16px;
 margin: 50px 12px;
 height: min-content;
-background-color: ${({ theme }) => theme.card};
+background-color: ${({ theme }) => theme.card_light};
 color: ${({ theme }) => theme.text_primary};
 padding: 20px;
 display: flex;
@@ -96,7 +96,7 @@ const Tags = styled.div`
 const Tag = styled.div`
     font-size: 14px;
     font-weight: 400;
-    color: #79b1ec;
+    color: ${({ theme }) => theme.primary};
     margin: 4px;
     padding: 4px 8px;
     border-radius: 8px;
@@ -162,7 +162,7 @@ const Button = styled.a`
     color: ${({ theme }) => theme.text_primary};
     padding: 12px 16px;
     border-radius: 8px;
-    background-color: ${({ theme }) => theme.primary};
+    background-color: #d5c14b;
     ${({ dull, theme }) => dull && `
         background-color: ${theme.bgLight};
         color: ${theme.text_secondary};

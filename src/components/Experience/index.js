@@ -85,7 +85,7 @@ const TimelineDot = styled.div`
     box-shadow: none;
     margin: 11.5px 0;
     background-color: transparent;
-    border-color: ${({ theme }) => theme.primary};
+    border-color: #ff900e;
 `;
 
 
@@ -103,7 +103,7 @@ const Experience = () => {
                             <TimelineItem>
                                 <TimelineSeparator>
                                     <TimelineDot/>
-                                    {index !== experiences.length - 1 && <TimelineConnector style={{ background: '#577acb' }} />}
+                                    {index !== experiences.length - 1 && <TimelineConnector style={{ background: '#ff900e' }} />}
                                 </TimelineSeparator>
                                 <TimelineContent sx={{ py: '12px', px: 2 }}>
                                     <ExperienceCard experience={experience}/>

@@ -47,7 +47,7 @@ const Desc = styled.div`
   font-size: 18px;
   text-align: center;
   max-width: 600px;
-  color: ${({ theme }) => theme.text_secondary};
+  color: ${({ theme }) => theme.text_primary};
   @media (max-width: 768px) {
     margin-top: 12px;
     font-size: 16px;
@@ -59,10 +59,10 @@ const ContactForm = styled.form`
   max-width: 600px;
   display: flex;
   flex-direction: column;
-  background-color: ${({ theme }) => theme.card};
+  background-color: ${({ theme }) => theme.card_light};
   padding: 32px;
   border-radius: 16px;
-  border: 3px solid ${({ theme }) => theme.primary};
+  border: 3px solid #ff900e;
   box-shadow: rgba(47, 100, 223, 0.345) 0px 4px 24px;
   margin-top: 28px;
   gap: 12px;
@@ -77,29 +77,27 @@ const ContactTitle = styled.div`
 
 const ContactInput = styled.input`
   flex: 1;
-  background-color: transparent;
-  border: 1px solid ${({ theme }) => theme.text_secondary};
+  border: 2px solid ${({ theme }) => theme.text_secondary};
   outline: none;
   font-size: 18px;
-  color: ${({ theme }) => theme.text_primary};
+  color: ${({ theme }) => theme.grey};
   border-radius: 12px;
   padding: 12px 16px;
   &:focus {
-    border: 1px solid ${({ theme }) => theme.primary};
+    border: 2px solid ${({ theme }) => theme.white};
   }
 `;
 
 const ContactInputMessage = styled.textarea`
   flex: 1;
-  background-color: transparent;
-  border: 1px solid ${({ theme }) => theme.text_secondary};
+  border: 2px solid ${({ theme }) => theme.text_secondary};
   outline: none;
   font-size: 18px;
-  color: ${({ theme }) => theme.text_primary};
+  color: ${({ theme }) => theme.grey};
   border-radius: 12px;
   padding: 12px 16px;
   &:focus {
-    border: 1px solid ${({ theme }) => theme.primary};
+    border: 2px solid ${({ theme }) => theme.white};
   }
 `;
 
@@ -107,10 +105,10 @@ const ContactButton = styled.input`
   width: 100%;
   text-decoration: none;
   text-align: center;
-  background: rgb(0, 140, 255) 0%;
-  background: linear-gradient(225deg, rgb(0, 140, 255) 0%, rgb(107, 215, 234) 100%);
-  background: -moz-linear-gradient(225deg, rgb(0, 140, 255) 0%, rgb(107, 215, 234) 100%);
-  background: -webkit-linear-gradient(225deg, rgb(0, 140, 255) 0%, rgb(107, 215, 234) 100%);
+  background: rgb(213, 143, 170) 100%);
+  background: linear-gradient(225deg, rgb(255, 144, 14) 0%, rgb(213, 143, 170) 100%);
+  background: -moz-linear-gradient(225deg, rgb(255, 144, 14) 0%, rgb(213, 143, 170) 100%);
+  background: -webkit-linear-gradient(225deg, rgb(255, 144, 14) 0%, rgb(213, 143, 170) 100%);
   padding: 13px 16px;
   margin-top: 2px;
   border-radius: 12px;

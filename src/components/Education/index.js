@@ -85,7 +85,7 @@ const TimelineDot = styled.div`
     box-shadow: none;
     margin: 11.5px 0;
     background-color: transparent;
-    border-color: ${({ theme }) => theme.primary};
+    border-color: #ff900e;
 `;
 
 const Education = () => {
@@ -105,7 +105,7 @@ const Education = () => {
                           </TimelineContent>
                           <TimelineSeparator>
                               <TimelineDot/>
-                              {index !== education.length - 1 && <TimelineConnector style={{ background: '#577acb' }} />}
+                              {index !== education.length - 1 && <TimelineConnector style={{ background: '#ff900e' }} />}
                           </TimelineSeparator>
                       </TimelineItem>
                     ))}

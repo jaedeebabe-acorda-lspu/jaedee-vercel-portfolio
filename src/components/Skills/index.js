@@ -59,8 +59,8 @@ const SkillsContainer = styled.div`
 const Skill = styled.div`
   width: 100%;
   max-width: 500px;
-  background: ${({ theme }) => theme.card};
-  border: 3px solid #577acb;
+  background: ${({ theme }) => theme.card_light};
+  border: 3px solid #ff900e;
   box-shadow: rgba(23, 92, 230, 0.15) 0px 4px 24px;
   border-radius: 16px;
   padding: 18px 36px;
@@ -119,8 +119,8 @@ const SkillItem = styled.div`
 const App = styled.div`
   width: 100%;
   max-width: 500px;
-  background: ${({ theme }) => theme.card};
-  border: 3px solid #577acb;
+  background: ${({ theme }) => theme.card_light};
+  border: 3px solid #ff900e;
   box-shadow: rgba(23, 92, 230, 0.15) 0px 4px 24px;
   border-radius: 16px;
   padding: 18px 36px;

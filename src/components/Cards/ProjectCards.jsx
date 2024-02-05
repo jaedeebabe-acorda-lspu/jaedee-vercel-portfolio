@@ -18,10 +18,10 @@ const Button = styled.button`
 const Card = styled.div`
     width: 330px;
     height: 490px;
-    background-color: ${({ theme }) => theme.card};
+    background-color: ${({ theme }) => theme.card_light};
     cursor: pointer;
     border-radius: 10px;
-    border: 3px solid ${({ theme }) => theme.primary};
+    border: 3px solid #ff900e;
     box-shadow: rgba(23, 92, 230, 0.15) 0px 4px 24px;
     overflow: hidden;
     padding: 26px 20px;
@@ -59,7 +59,7 @@ const Tags = styled.div`
 const Tag = styled.span`
     font-size: 12px;
     font-weight: 400;
-    color: #79b1ec;
+    color: #FCDD2D;
     background-color: ${({ theme }) => theme.primary + 15};
     padding: 2px 8px;
     border-radius: 10px;

@@ -7,7 +7,7 @@ import { useTheme } from "styled-components";
 import { Bio } from "../../data/constant";
 
 const Nav = styled.div`
-    background-color: ${({theme}) => theme.card_light};
+    background-color: #c47da1;
     height: 80px;
     display: flex;
     align-items: center;

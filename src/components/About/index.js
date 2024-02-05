@@ -6,7 +6,7 @@ import AboutImg from "../../images/About/img-home.jpg";
 import AboutBgAnimation from "../AboutBgAnimation";
 
 const AboutContainer = styled.div`
-  background: ${({ theme }) => theme.card_light};
+  background: #c47da1;
   display: flex;
   justify-content: center;
   position: relative;
@@ -158,7 +158,7 @@ const SubTitle = styled.div`
   font-size: 18px;
   line-height: 32px;
   margin-bottom: 42px;
-  color: ${({ theme }) => theme.text_primary + 95};
+  color: ${({ theme }) => theme.text_primary};
 
   @media (max-width: 960px) {
     text-align: center;

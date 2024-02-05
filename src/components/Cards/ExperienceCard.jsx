@@ -54,7 +54,7 @@ const Card = styled.div`
     border-radius: 10px;
     box-shadow: 0px 0px 10px rgba(0,0,0,0.1);
     padding: 12px 16px;
-    background: #2c2c2dcb;
+    background: ${({ theme }) => theme.card_light};
     justify-content: space-between;
     position: relative;
     overflow: hidden;
@@ -81,7 +81,7 @@ const Card = styled.div`
         -webkit-line-clamp: unset;
 
     }
-    border: 3px solid ${({ theme }) => theme.primary};
+    border: 3px solid #ff900e;
     box-shadow: rgba(23, 92, 230, 0.15) 0px 4px 24px;
 `;
 

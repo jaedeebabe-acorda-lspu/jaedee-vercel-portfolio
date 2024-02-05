@@ -65,9 +65,9 @@ const ToggleButtonGroup = styled.div`
 
 const ToggleButton = styled.div`
     padding: 8px 18px;
-    border: 3px solid ${({ theme }) => theme.primary};
+    border: 3px solid #ff900e;
     border-radius: 6px;
-    color: ${({ theme }) => theme.primary};
+    color: #ff900e;
     cursor: pointer;
     ${({ active, theme }) =>
         active && `
@@ -75,9 +75,9 @@ const ToggleButton = styled.div`
     `
     }
     &:hover {
-        background: #79b1ec;
+        background: #ff900e;
         color: ${({ theme }) => theme.white};     
-        border-color: ${({ theme }) => theme.white};
+        border-color: #ff900e;
     }
     @media (max-width: 768px) {
         padding: 6px 8px;
