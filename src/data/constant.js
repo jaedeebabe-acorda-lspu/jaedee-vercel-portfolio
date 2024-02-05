@@ -219,13 +219,13 @@ export const projects = [
     description:
       "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Numquam, perspiciatis molestiae. Deleniti accusamus incidunt sapiente perspiciatis odio voluptate? Veniam aut officiis ducimus reiciendis debitis hic deleniti libero laboriosam ea praesentium!",
     image:
-      "https://raw.githubusercontent.com/jaedeebabe-acorda-lspu/jaedee-vercel-portfolio/main/src/images/Projects/2DArt/ibisPaintX/20th%20bday%20ryn%20x%20bee.jpg.png",
+      "https://raw.githubusercontent.com/jaedeebabe-acorda-lspu/jaedee-vercel-portfolio/main/src/images/Projects/2DArt/ibisPaintX/20th%20bday%20ryn%20x%20bee.jpg",
     tags: [
       "ibis Paint X",
       "2D Arts",
     ],
     category: "2d art",
-    webapp: "https://raw.githubusercontent.com/jaedeebabe-acorda-lspu/jaedee-vercel-portfolio/main/src/images/Projects/2DArt/ibisPaintX/20th%20bday%20ryn%20x%20bee.jpg.png",
+    webapp: "https://raw.githubusercontent.com/jaedeebabe-acorda-lspu/jaedee-vercel-portfolio/main/src/images/Projects/2DArt/ibisPaintX/20th%20bday%20ryn%20x%20bee.jpg",
   },
   {
     id: 5,
@@ -234,13 +234,13 @@ export const projects = [
     description:
       "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Numquam, perspiciatis molestiae. Deleniti accusamus incidunt sapiente perspiciatis odio voluptate? Veniam aut officiis ducimus reiciendis debitis hic deleniti libero laboriosam ea praesentium!",
     image:
-      "https://raw.githubusercontent.com/jaedeebabe-acorda-lspu/jaedee-vercel-portfolio/main/src/images/Projects/2DArt/ibisPaintX/20th%20bday%20ryn%20x%20hannie.jpg.png",
+      "https://raw.githubusercontent.com/jaedeebabe-acorda-lspu/jaedee-vercel-portfolio/main/src/images/Projects/2DArt/ibisPaintX/20th%20bday%20ryn%20x%20hannie.jpg",
     tags: [
       "ibis Paint X",
       "2D Arts",
     ],
     category: "2d art",
-    webapp: "https://raw.githubusercontent.com/jaedeebabe-acorda-lspu/jaedee-vercel-portfolio/main/src/images/Projects/2DArt/ibisPaintX/20th%20bday%20ryn%20x%20hannie.jpg.png",
+    webapp: "https://raw.githubusercontent.com/jaedeebabe-acorda-lspu/jaedee-vercel-portfolio/main/src/images/Projects/2DArt/ibisPaintX/20th%20bday%20ryn%20x%20hannie.jpg",
   },
   {
     id: 6,
@@ -249,13 +249,13 @@ export const projects = [
     description:
       "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Numquam, perspiciatis molestiae. Deleniti accusamus incidunt sapiente perspiciatis odio voluptate? Veniam aut officiis ducimus reiciendis debitis hic deleniti libero laboriosam ea praesentium!",
     image:
-      "https://raw.githubusercontent.com/jaedeebabe-acorda-lspu/jaedee-vercel-portfolio/main/src/images/Projects/2DArt/ibisPaintX/20th%20bday%20ryn%20x%20kyou.jpg.png",
+      "https://raw.githubusercontent.com/jaedeebabe-acorda-lspu/jaedee-vercel-portfolio/main/src/images/Projects/2DArt/ibisPaintX/20th%20bday%20ryn%20x%20kyou.jpg",
     tags: [
       "ibis Paint X",
       "2D Arts",
     ],
     category: "2d art",
-    webapp: "https://raw.githubusercontent.com/jaedeebabe-acorda-lspu/jaedee-vercel-portfolio/main/src/images/Projects/2DArt/ibisPaintX/20th%20bday%20ryn%20x%20kyou.jpg.png",
+    webapp: "https://raw.githubusercontent.com/jaedeebabe-acorda-lspu/jaedee-vercel-portfolio/main/src/images/Projects/2DArt/ibisPaintX/20th%20bday%20ryn%20x%20kyou.jpg",
   },
   {
     id: 7,
@@ -264,12 +264,12 @@ export const projects = [
     description:
       "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Numquam, perspiciatis molestiae. Deleniti accusamus incidunt sapiente perspiciatis odio voluptate? Veniam aut officiis ducimus reiciendis debitis hic deleniti libero laboriosam ea praesentium!",
     image:
-      "https://raw.githubusercontent.com/jaedeebabe-acorda-lspu/jaedee-vercel-portfolio/main/src/images/Projects/2DArt/ibisPaintX/20th%20bday%20ryn%20x%20reve.jpg.png",
+      "https://raw.githubusercontent.com/jaedeebabe-acorda-lspu/jaedee-vercel-portfolio/main/src/images/Projects/2DArt/ibisPaintX/20th%20bday%20ryn%20x%20reve.jpg",
     tags: [
       "ibis Paint X",
       "2D Arts",
     ],
     category: "2d art",
-    webapp: "https://raw.githubusercontent.com/jaedeebabe-acorda-lspu/jaedee-vercel-portfolio/main/src/images/Projects/2DArt/ibisPaintX/20th%20bday%20ryn%20x%20reve.jpg.png",
+    webapp: "https://raw.githubusercontent.com/jaedeebabe-acorda-lspu/jaedee-vercel-portfolio/main/src/images/Projects/2DArt/ibisPaintX/20th%20bday%20ryn%20x%20reve.jpg",
   },
 ];
