@@ -150,7 +150,7 @@ const TextLoop = styled.div`
 `;
 
 const Span = styled.span`
-  color: #79b1ec;
+  color: ${({ theme }) => theme.primary};
   cursor: pointer;
 `;
 
@@ -185,10 +185,10 @@ const ResumeButton = styled.a`
     font-size: 20px;
     font-weight: 600;
     transition: all 0.2s ease-in-out !important;
-    background: rgb(0, 140, 255) 0%;
-    background: linear-gradient(225deg, rgb(0, 140, 255) 0%, rgb(107, 215, 234) 100%);
-    background: -moz-linear-gradient(225deg, rgb(0, 140, 255) 0%, rgb(107, 215, 234) 100%);
-    background: -webkit-linear-gradient(225deg, rgb(0, 140, 255) 0%, rgb(107, 215, 234) 100%);
+    background: rgb(213, 143, 170) 100%);
+    background: linear-gradient(225deg, rgb(255, 144, 14) 0%, rgb(213, 143, 170) 100%);
+    background: -moz-linear-gradient(225deg, rgb(255, 144, 14) 0%, rgb(213, 143, 170) 100%);
+    background: -webkit-linear-gradient(225deg, rgb(255, 144, 14) 0%, rgb(213, 143, 170) 100%);
     &:hover {
         transform: scale(1.05);
     transition: all 0.4s ease-in-out;

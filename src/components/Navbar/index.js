@@ -81,13 +81,13 @@ const NavLink = styled.a`
 
 
 const CvButton = styled.a`
-  border: 3px solid #79b1ec;
+  border: 3px solid ${({ theme }) => theme.primary};
   justify-content: center;
   display: flex;
   align-items: center;
   height: 70%;
   border-radius: 20px;
-  color: #79b1ec;
+  color: ${({ theme }) => theme.primary};
   cursor: pointer;
   padding: 0 20px;
   font-weight: 500;
@@ -95,7 +95,7 @@ const CvButton = styled.a`
   font-size: 16px;
   transition: all 0.6s ease-in-out;
   :hover {
-    background: #79b1ec;
+    background: ${({ theme }) => theme.primary};
     color: ${({ theme }) => theme.white};     
   }
   @media screen and (max-width: 768px) { 
