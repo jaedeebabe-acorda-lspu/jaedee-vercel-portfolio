@@ -1,3 +1,4 @@
+/* eslint-disable react-hooks/exhaustive-deps */
 /* eslint-disable jsx-a11y/anchor-is-valid */
 import React from "react";
 import { Link as LinkR } from "react-router-dom";
@@ -140,7 +141,7 @@ const MobileMenu = styled.div`
   right: 0;
   width: 100%;
   padding: 12px 40px 24px 40px;
-  background: ${({ theme }) => theme.card_light+99};
+  background: #c47da1bc;
   transition: all 0.6s ease-in-out;
   transform: ${({ isOpen }) => (isOpen ? 'translateY(0)' : 'translateY(-100%)')};
   border-radius: 0 0 20px 20px;
@@ -170,6 +171,23 @@ const Navbar = () => {
   const handleLogoClick = () => {
     window.scrollTo({ top: 0, behavior: 'smooth' });
   };
+  const closeMobileMenu = () => {
+    setIsOpen(false);
+  };
+  const handleResize = () => {
+    if (window.innerWidth > 768 && isOpen) {
+      closeMobileMenu();
+    }
+  };
+  React.useEffect(() => {
+    // Add event listener when component mounts
+    window.addEventListener('resize', handleResize);
+
+    // Remove event listener when component unmounts
+    return () => {
+      window.removeEventListener('resize', handleResize);
+    };
+  }, [isOpen]);
   return (
     <Nav>
       <NavContainer>
@@ -215,7 +233,7 @@ const Navbar = () => {
             <MobileLink href='#contact' onClick={() => {
               setIsOpen(!isOpen)
             }}>Contact</MobileLink>
-            <CvButton style={{padding: '10px 16px',background: `${theme.primary}`, color: 'white',width: 'max-content'}} href={Bio.resume} target="_blank">View CV</CvButton>
+            <CvButton style={{padding: '10px 16px',background: `${theme.primary}`, color: 'white',width: 'max-content'}} href={Bio.resume} target="_blank" onClick={closeMobileMenu}>View CV</CvButton>
           </MobileMenu>
         }
       </NavContainer>
