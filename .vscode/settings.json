@@ -29,5 +29,6 @@
         "webfonts",
         "xlink",
         "Zilla"
-    ]
+    ],
+    "DockerRun.DisableAutoGenerateConfig": true
 }
