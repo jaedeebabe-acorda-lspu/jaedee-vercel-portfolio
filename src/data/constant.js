@@ -183,7 +183,7 @@ export const projects = [
     description:
       "",
     image:
-      "https://raw.githubusercontent.com/jaedeebabe-acorda-lspu/jaedee-vercel-portfolio/main/src/images/Projects/2DArt/AdobePhotoshop/Shin-BDay.ppg",
+      "https://raw.githubusercontent.com/jaedeebabe-acorda-lspu/jaedee-vercel-portfolio/main/src/images/Projects/2DArt/AdobePhotoshop/Shin-BDay.png",
     tags: [
       "Adobe Photoshop",
       "2D Arts",
