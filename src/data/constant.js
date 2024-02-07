@@ -198,7 +198,7 @@ export const projects = [
     description:
       "",
     image:
-      "https://raw.githubusercontent.com/jaedeebabe-acorda-lspu/jaedee-vercel-portfolio/main/src/images/Projects/2DArt/AdobePhotoshop/yue%20bday_1.png",
+      "https://raw.githubusercontent.com/jaedeebabe-acorda-lspu/jaedee-vercel-portfolio/main/src/images/Projects/2DArt/AdobePhotoshop/yue-thumbnail.png",
     tags: [
       "ibis Paint X",
       "2D Arts",
