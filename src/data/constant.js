@@ -166,7 +166,7 @@ export const projects = [
     title: "Dearest Roshie",
     date: "Feb 2023 - Jan 2024",
     description:
-      "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Numquam, perspiciatis molestiae. Deleniti accusamus incidunt sapiente perspiciatis odio voluptate? Veniam aut officiis ducimus reiciendis debitis hic deleniti libero laboriosam ea praesentium!",
+      "",
     image:
       "https://raw.githubusercontent.com/jaedeebabe-acorda-lspu/jaedee-vercel-portfolio/main/src/images/Projects/2DArt/AdobePhotoshop/dearest_roshie.png",
     tags: [
@@ -181,7 +181,7 @@ export const projects = [
     title: "Happy Birthday Shin",
     date: "Feb 2023 - Jan 2024",
     description:
-      "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Numquam, perspiciatis molestiae. Deleniti accusamus incidunt sapiente perspiciatis odio voluptate? Veniam aut officiis ducimus reiciendis debitis hic deleniti libero laboriosam ea praesentium!",
+      "",
     image:
       "https://raw.githubusercontent.com/jaedeebabe-acorda-lspu/jaedee-vercel-portfolio/main/src/images/Projects/2DArt/AdobePhotoshop/hbd_Shin.jpg",
     tags: [
@@ -196,7 +196,7 @@ export const projects = [
     title: "Yue Happy Birthday",
     date: "Feb 2023 - Jan 2024",
     description:
-      "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Numquam, perspiciatis molestiae. Deleniti accusamus incidunt sapiente perspiciatis odio voluptate? Veniam aut officiis ducimus reiciendis debitis hic deleniti libero laboriosam ea praesentium!",
+      "",
     image:
       "https://raw.githubusercontent.com/jaedeebabe-acorda-lspu/jaedee-vercel-portfolio/main/src/images/Projects/2DArt/AdobePhotoshop/yue%20bday_1.png",
     tags: [
@@ -211,7 +211,7 @@ export const projects = [
     title: "20th Birthday Bee",
     date: "Feb 2023 - Jan 2024",
     description:
-      "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Numquam, perspiciatis molestiae. Deleniti accusamus incidunt sapiente perspiciatis odio voluptate? Veniam aut officiis ducimus reiciendis debitis hic deleniti libero laboriosam ea praesentium!",
+      "A lovely gift for a sister, a fellow artist, and a co-moderator from the former server I was actively in. She is a co-Vyn simp who lives in Australia and the kindest person I've ever came across. She also became the reason why I loved RP-ing (Role Playing). The idea of the roleplay for her birthday was a wedding theme with her being wedded to our favorite ML: Vyn Richter.",
     image:
       "https://raw.githubusercontent.com/jaedeebabe-acorda-lspu/jaedee-vercel-portfolio/main/src/images/Projects/2DArt/ibisPaintX/20th%20bday%20Bee.png",
     tags: [
@@ -226,7 +226,7 @@ export const projects = [
     title: "20th Birthday Ryn X Bee",
     date: "May 2022",
     description:
-      "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Numquam, perspiciatis molestiae. Deleniti accusamus incidunt sapiente perspiciatis odio voluptate? Veniam aut officiis ducimus reiciendis debitis hic deleniti libero laboriosam ea praesentium!",
+      "",
     image:
       "https://raw.githubusercontent.com/jaedeebabe-acorda-lspu/jaedee-vercel-portfolio/main/src/images/Projects/2DArt/ibisPaintX/20th%20bday%20ryn%20x%20bee.jpg",
     tags: [
@@ -241,7 +241,7 @@ export const projects = [
     title: "20th Birthday Ryn X Hannie",
     date: "May 2022",
     description:
-      "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Numquam, perspiciatis molestiae. Deleniti accusamus incidunt sapiente perspiciatis odio voluptate? Veniam aut officiis ducimus reiciendis debitis hic deleniti libero laboriosam ea praesentium!",
+      "",
     image:
       "https://raw.githubusercontent.com/jaedeebabe-acorda-lspu/jaedee-vercel-portfolio/main/src/images/Projects/2DArt/ibisPaintX/20th%20bday%20ryn%20x%20hannie.jpg",
     tags: [
@@ -256,7 +256,7 @@ export const projects = [
     title: "20th Birthday Ryn X Kyou",
     date: "May 2022",
     description:
-      "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Numquam, perspiciatis molestiae. Deleniti accusamus incidunt sapiente perspiciatis odio voluptate? Veniam aut officiis ducimus reiciendis debitis hic deleniti libero laboriosam ea praesentium!",
+      "",
     image:
       "https://raw.githubusercontent.com/jaedeebabe-acorda-lspu/jaedee-vercel-portfolio/main/src/images/Projects/2DArt/ibisPaintX/20th%20bday%20ryn%20x%20kyou.jpg",
     tags: [
@@ -271,7 +271,7 @@ export const projects = [
     title: "20th Birthday Ryn X Reve",
     date: "May 2022",
     description:
-      "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Numquam, perspiciatis molestiae. Deleniti accusamus incidunt sapiente perspiciatis odio voluptate? Veniam aut officiis ducimus reiciendis debitis hic deleniti libero laboriosam ea praesentium!",
+      "",
     image:
       "https://raw.githubusercontent.com/jaedeebabe-acorda-lspu/jaedee-vercel-portfolio/main/src/images/Projects/2DArt/ibisPaintX/20th%20bday%20ryn%20x%20reve.jpg",
     tags: [
@@ -383,6 +383,48 @@ export const projects = [
       "ibis Paint X",
     ],
     category: "other proj",
+    webapp: "https://youtu.be/Ot3Ct1DOBJo",
+  },
+  {
+    id: 15,
+    title: "Onee-Channu ver 1.0",
+    date: "Aug 2020",
+    description:
+      "'Onee-Chan' derived from the Japanese word meaning 'Big Sister' combined with some Korean accent resulting to 'Onee-Channu' is inspired from a former close best friend of mine.",
+    image:
+      "https://raw.githubusercontent.com/jaedeebabe-acorda-lspu/jaedee-vercel-portfolio/main/src/images/Projects/OtherProj/C-Merged.png",
+    tags: [
+      "ibis Paint X",
+    ],
+    category: "2d art",
+    webapp: "https://youtu.be/Ot3Ct1DOBJo",
+  },
+  {
+    id: 16,
+    title: "Onee-Channu ver 2.0",
+    date: "Dec 2021",
+    description:
+      "Inspired from a favorite character of mine from Hoyoverse's Detective-Dating Sim Game named 'Tears of Themis'. The guy behind the original wearer of the outfit became my favorite ML (Male Lead) of the game named Vyn Richter.",
+    image:
+      "https://raw.githubusercontent.com/jaedeebabe-acorda-lspu/jaedee-vercel-portfolio/main/src/images/Projects/OtherProj/C-Merged.png",
+    tags: [
+      "ibis Paint X",
+    ],
+    category: "2d art",
+    webapp: "https://youtu.be/Ot3Ct1DOBJo",
+  },
+  {
+    id: 17,
+    title: "Onee-Channu ver 3.0",
+    date: "Oct 2022",
+    description:
+      "",
+    image:
+      "https://raw.githubusercontent.com/jaedeebabe-acorda-lspu/jaedee-vercel-portfolio/main/src/images/Projects/OtherProj/C-Merged.png",
+    tags: [
+      "ibis Paint X",
+    ],
+    category: "2d art",
     webapp: "https://youtu.be/Ot3Ct1DOBJo",
   },
 ];
