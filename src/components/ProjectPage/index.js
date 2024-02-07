@@ -1,9 +1,8 @@
 import React from "react"
-import styled from "styled-components";
-import ProjectCard from "../Cards/ProjectCards"
 import { useState } from "react"
+import ProjectCard from "../Cards/ProjectCards"
 import { projects } from "../../data/constant"
-import { useNavigate } from "react-router-dom";
+import styled from "styled-components";
 
 const Container = styled.div`
     background: linear-gradient(343.07deg, rgba(132, 59, 206, 0.06) 5.71%, rgba(132, 59, 206, 0) 64.83%);
@@ -111,40 +110,11 @@ const CardContainer = styled.div`
     
 `;
 
-const ViewButton = styled.div`
-    margin-top: 50px;
-    padding: 8px 18px;
-    border: 3px solid #ff900e;
-    border-radius: 6px;
-    color: #ff900e;
-    cursor: pointer;
-    ${({ active, theme }) =>
-        active && `
-    background: ${theme.primary + 20};
-    `
-    }
-    &:hover {
-        background: #ff900e;
-        color: ${({ theme }) => theme.white};     
-        border-color: #ff900e;
-    }
-    @media (max-width: 768px) {
-        padding: 6px 8px;
-        border-radius: 4px;
-    }
-    transition: all 0.6s ease-in-out;
-`;
-
-const Projects = ({openModal,setOpenModal}) => {
+const ProjectPage = ({openModal,setOpenModal}) => {
     const [toggle, setToggle] = useState('all');
     const sortedProjects = [...projects].sort((a, b) => b.id - a.id);
-    const navigate = useNavigate();
-    const handleButtonClick = () => {
-      window.scrollTo({ top: 0, behavior: 'smooth' });
-      navigate('projects');
-    };
     return (
-      <Container id="projects">
+      <Container>
         <Wrapper>
           <Title>Projects</Title>
           <Desc>
@@ -186,10 +156,9 @@ const Projects = ({openModal,setOpenModal}) => {
                 <ProjectCard key={project.id} project={project} openModal={openModal} setOpenModal={setOpenModal} />
               ))}
           </CardContainer>
-          <ViewButton onClick={handleButtonClick}>View All Projects</ViewButton>
         </Wrapper>
       </Container>
     )
   }
   
-  export default Projects
+  export default ProjectPage
