@@ -392,12 +392,12 @@ export const projects = [
     description:
       "'Onee-Chan' derived from the Japanese word meaning 'Big Sister' combined with some Korean accent resulting to 'Onee-Channu' is inspired from a former close best friend of mine.",
     image:
-      "https://raw.githubusercontent.com/jaedeebabe-acorda-lspu/jaedee-vercel-portfolio/main/src/images/Projects/OtherProj/C-Merged.png",
+      "https://raw.githubusercontent.com/jaedeebabe-acorda-lspu/jaedee-vercel-portfolio/main/src/images/Projects/2DArt/ibisPaintX/Onee-Channu-ver-1.0.png",
     tags: [
       "ibis Paint X",
     ],
     category: "2d art",
-    webapp: "https://youtu.be/Ot3Ct1DOBJo",
+    webapp: "https://raw.githubusercontent.com/jaedeebabe-acorda-lspu/jaedee-vercel-portfolio/main/src/images/Projects/2DArt/ibisPaintX/OneeChannuver1.0.png",
   },
   {
     id: 16,
@@ -406,12 +406,12 @@ export const projects = [
     description:
       "Inspired from a favorite character of mine from Hoyoverse's Detective-Dating Sim Game named 'Tears of Themis'. The guy behind the original wearer of the outfit became my favorite ML (Male Lead) of the game named Vyn Richter.",
     image:
-      "https://raw.githubusercontent.com/jaedeebabe-acorda-lspu/jaedee-vercel-portfolio/main/src/images/Projects/OtherProj/C-Merged.png",
+      "https://raw.githubusercontent.com/jaedeebabe-acorda-lspu/jaedee-vercel-portfolio/main/src/images/Projects/2DArt/ibisPaintX/OneeChannuver2.0.png",
     tags: [
       "ibis Paint X",
     ],
     category: "2d art",
-    webapp: "https://youtu.be/Ot3Ct1DOBJo",
+    webapp: "https://raw.githubusercontent.com/jaedeebabe-acorda-lspu/jaedee-vercel-portfolio/main/src/images/Projects/2DArt/ibisPaintX/OneeChannuver3.0.png",
   },
   {
     id: 17,
@@ -420,11 +420,11 @@ export const projects = [
     description:
       "",
     image:
-      "https://raw.githubusercontent.com/jaedeebabe-acorda-lspu/jaedee-vercel-portfolio/main/src/images/Projects/OtherProj/C-Merged.png",
+      "https://raw.githubusercontent.com/jaedeebabe-acorda-lspu/jaedee-vercel-portfolio/main/src/images/Projects/2DArt/ibisPaintX/Onee-Channu-ver-3.0.png",
     tags: [
       "ibis Paint X",
     ],
     category: "2d art",
-    webapp: "https://youtu.be/Ot3Ct1DOBJo",
+    webapp: "https://raw.githubusercontent.com/jaedeebabe-acorda-lspu/jaedee-vercel-portfolio/main/src/images/Projects/2DArt/ibisPaintX/Onee-Channu-ver-3.0.png",
   },
 ];
