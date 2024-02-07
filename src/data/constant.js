@@ -163,12 +163,12 @@ export const education = [
 export const projects = [
   {
     id: 0,
-    title: "Dearest Roshie",
-    date: "Feb 2023 - Jan 2024",
+    title: "Rose Happy Birthday",
+    date: "Oct 2022",
     description:
       "",
     image:
-      "https://raw.githubusercontent.com/jaedeebabe-acorda-lspu/jaedee-vercel-portfolio/main/src/images/Projects/2DArt/AdobePhotoshop/dearest_roshie.png",
+      "https://raw.githubusercontent.com/jaedeebabe-acorda-lspu/jaedee-vercel-portfolio/main/src/images/Projects/2DArt/AdobePhotoshop/Rose-BDay.png",
     tags: [
       "Adobe Photoshop",
       "2D Arts",
@@ -179,11 +179,11 @@ export const projects = [
   {
     id: 1,
     title: "Happy Birthday Shin",
-    date: "Feb 2023 - Jan 2024",
+    date: "Oct 2022",
     description:
       "",
     image:
-      "https://raw.githubusercontent.com/jaedeebabe-acorda-lspu/jaedee-vercel-portfolio/main/src/images/Projects/2DArt/AdobePhotoshop/hbd_Shin.jpg",
+      "https://raw.githubusercontent.com/jaedeebabe-acorda-lspu/jaedee-vercel-portfolio/main/src/images/Projects/2DArt/AdobePhotoshop/Shin-BDay.ppg",
     tags: [
       "Adobe Photoshop",
       "2D Arts",
@@ -194,13 +194,13 @@ export const projects = [
   {
     id: 2,
     title: "Yue Happy Birthday",
-    date: "Feb 2023 - Jan 2024",
+    date: "Aug 2022",
     description:
       "",
     image:
       "https://raw.githubusercontent.com/jaedeebabe-acorda-lspu/jaedee-vercel-portfolio/main/src/images/Projects/2DArt/AdobePhotoshop/yue%20bday_1.png",
     tags: [
-      "Adobe Photoshop",
+      "ibis Paint X",
       "2D Arts",
     ],
     category: "2d art",
@@ -208,12 +208,12 @@ export const projects = [
   },
   {
     id: 3,
-    title: "20th Birthday Bee",
-    date: "Feb 2023 - Jan 2024",
+    title: " Mrs. Bee Richter at 20th",
+    date: "Jan 2022",
     description:
       "A lovely gift for a sister, a fellow artist, and a co-moderator from the former server I was actively in. She is a co-Vyn simp who lives in Australia and the kindest person I've ever came across. She also became the reason why I loved RP-ing (Role Playing). The idea of the roleplay for her birthday was a wedding theme with her being wedded to our favorite ML: Vyn Richter.",
     image:
-      "https://raw.githubusercontent.com/jaedeebabe-acorda-lspu/jaedee-vercel-portfolio/main/src/images/Projects/2DArt/ibisPaintX/20th%20bday%20Bee.png",
+      "https://raw.githubusercontent.com/jaedeebabe-acorda-lspu/jaedee-vercel-portfolio/main/src/images/Projects/2DArt/ibisPaintX/Mrs.Bee.png",
     tags: [
       "ibis Paint X",
       "2D Arts",
@@ -228,7 +228,7 @@ export const projects = [
     description:
       "",
     image:
-      "https://raw.githubusercontent.com/jaedeebabe-acorda-lspu/jaedee-vercel-portfolio/main/src/images/Projects/2DArt/ibisPaintX/20th%20bday%20ryn%20x%20bee.jpg",
+      "https://raw.githubusercontent.com/jaedeebabe-acorda-lspu/jaedee-vercel-portfolio/main/src/images/Projects/2DArt/ibisPaintX/RynxBee.png",
     tags: [
       "ibis Paint X",
       "2D Arts",
@@ -243,7 +243,7 @@ export const projects = [
     description:
       "",
     image:
-      "https://raw.githubusercontent.com/jaedeebabe-acorda-lspu/jaedee-vercel-portfolio/main/src/images/Projects/2DArt/ibisPaintX/20th%20bday%20ryn%20x%20hannie.jpg",
+      "https://raw.githubusercontent.com/jaedeebabe-acorda-lspu/jaedee-vercel-portfolio/main/src/images/Projects/2DArt/ibisPaintX/RynxHannie.png",
     tags: [
       "ibis Paint X",
       "2D Arts",
@@ -258,7 +258,7 @@ export const projects = [
     description:
       "",
     image:
-      "https://raw.githubusercontent.com/jaedeebabe-acorda-lspu/jaedee-vercel-portfolio/main/src/images/Projects/2DArt/ibisPaintX/20th%20bday%20ryn%20x%20kyou.jpg",
+      "https://raw.githubusercontent.com/jaedeebabe-acorda-lspu/jaedee-vercel-portfolio/main/src/images/Projects/2DArt/ibisPaintX/RynxKyou.png",
     tags: [
       "ibis Paint X",
       "2D Arts",
@@ -273,7 +273,7 @@ export const projects = [
     description:
       "",
     image:
-      "https://raw.githubusercontent.com/jaedeebabe-acorda-lspu/jaedee-vercel-portfolio/main/src/images/Projects/2DArt/ibisPaintX/20th%20bday%20ryn%20x%20reve.jpg",
+      "https://raw.githubusercontent.com/jaedeebabe-acorda-lspu/jaedee-vercel-portfolio/main/src/images/Projects/2DArt/ibisPaintX/RynxReve.png",
     tags: [
       "ibis Paint X",
       "2D Arts",
