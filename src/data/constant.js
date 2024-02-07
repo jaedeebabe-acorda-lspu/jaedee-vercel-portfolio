@@ -362,7 +362,7 @@ export const projects = [
     description:
       "",
     image:
-      "https://raw.githubusercontent.com/jaedeebabe-acorda-lspu/jaedee-vercel-portfolio/main/src/images/Projects/2DArt/ibisPaintX/20th%20bday%20ryn%20x%20reve.jpg",
+      "https://raw.githubusercontent.com/jaedeebabe-acorda-lspu/jaedee-vercel-portfolio/main/src/images/Projects//OtherProj/puto-bao-thumbnail.png",
     tags: [
       "Adobe Premiere",
       "ibis Paint X",
