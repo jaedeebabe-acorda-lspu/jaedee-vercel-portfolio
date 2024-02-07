@@ -64,7 +64,7 @@ export const apps = [
           "https://raw.githubusercontent.com/devicons/devicon/master/icons/illustrator/illustrator-plain.svg",
       },
       {
-        name: "Adobe Premier",
+        name: "Adobe Premiere",
         image:
           "https://raw.githubusercontent.com/devicons/devicon/master/icons/premierepro/premierepro-plain.svg",
       },
@@ -74,9 +74,19 @@ export const apps = [
           "https://raw.githubusercontent.com/devicons/devicon/master/icons/photoshop/photoshop-plain.svg",
       },
       {
+        name: "Adobe XD",
+        image:
+          "https://raw.githubusercontent.com/devicons/devicon/master/icons/xd/xd-original.svg",
+      },
+      {
         name: "ibis Paint X",
         image:
           "https://play-lh.googleusercontent.com/QcfhlXm32JDnj3WM2-TSL78ad99x4slovX4OzCSLSPU3uRN-mGXpKyM_yeXiewhz0Lk",
+      },
+      {
+        name: "Lumion",
+        image:
+          "https://xesktop.com/wp-content/uploads/2021/03/Lumion_logo_2017-1181x1500.png",
       },
     ],
   },
@@ -214,7 +224,7 @@ export const projects = [
   {
     id: 4,
     title: "20th Birthday Ryn X Bee",
-    date: "Feb 2023 - Jan 2024",
+    date: "May 2022",
     description:
       "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Numquam, perspiciatis molestiae. Deleniti accusamus incidunt sapiente perspiciatis odio voluptate? Veniam aut officiis ducimus reiciendis debitis hic deleniti libero laboriosam ea praesentium!",
     image:
@@ -229,7 +239,7 @@ export const projects = [
   {
     id: 5,
     title: "20th Birthday Ryn X Hannie",
-    date: "Feb 2023 - Jan 2024",
+    date: "May 2022",
     description:
       "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Numquam, perspiciatis molestiae. Deleniti accusamus incidunt sapiente perspiciatis odio voluptate? Veniam aut officiis ducimus reiciendis debitis hic deleniti libero laboriosam ea praesentium!",
     image:
@@ -244,7 +254,7 @@ export const projects = [
   {
     id: 6,
     title: "20th Birthday Ryn X Kyou",
-    date: "Feb 2023 - Jan 2024",
+    date: "May 2022",
     description:
       "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Numquam, perspiciatis molestiae. Deleniti accusamus incidunt sapiente perspiciatis odio voluptate? Veniam aut officiis ducimus reiciendis debitis hic deleniti libero laboriosam ea praesentium!",
     image:
@@ -259,7 +269,7 @@ export const projects = [
   {
     id: 7,
     title: "20th Birthday Ryn X Reve",
-    date: "Feb 2023 - Jan 2024",
+    date: "May 2022",
     description:
       "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Numquam, perspiciatis molestiae. Deleniti accusamus incidunt sapiente perspiciatis odio voluptate? Veniam aut officiis ducimus reiciendis debitis hic deleniti libero laboriosam ea praesentium!",
     image:
@@ -269,6 +279,110 @@ export const projects = [
       "2D Arts",
     ],
     category: "2d art",
+    webapp: "https://raw.githubusercontent.com/jaedeebabe-acorda-lspu/jaedee-vercel-portfolio/main/src/images/Projects/2DArt/ibisPaintX/20th%20bday%20ryn%20x%20reve.jpg",
+  },
+  {
+    id: 8,
+    title: "AVE Cafe Shop",
+    date: "Jun 2023",
+    description:
+      "",
+    image:
+      "https://raw.githubusercontent.com/jaedeebabe-acorda-lspu/jaedee-vercel-portfolio/main/src/images/Projects/2DArt/ibisPaintX/20th%20bday%20ryn%20x%20reve.jpg",
+    tags: [
+      "Lumion",
+      "Canva",
+      "Adobe Premiere",
+    ],
+    category: "3d model",
+    webapp: "https://raw.githubusercontent.com/jaedeebabe-acorda-lspu/jaedee-vercel-portfolio/main/src/images/Projects/2DArt/ibisPaintX/20th%20bday%20ryn%20x%20reve.jpg",
+  },
+  {
+    id: 9,
+    title: "Dodoco A 3D Imitiation Model",
+    date: "Oct 2023",
+    description:
+      "",
+    image:
+      "https://raw.githubusercontent.com/jaedeebabe-acorda-lspu/jaedee-vercel-portfolio/main/src/images/Projects/2DArt/ibisPaintX/20th%20bday%20ryn%20x%20reve.jpg",
+    tags: [
+      "Blender",
+      "ibis Paint X",
+    ],
+    category: "3d model",
+    webapp: "https://raw.githubusercontent.com/jaedeebabe-acorda-lspu/jaedee-vercel-portfolio/main/src/images/Projects/2DArt/ibisPaintX/20th%20bday%20ryn%20x%20reve.jpg",
+  },
+  {
+    id: 10,
+    title: "Aqua Flask Wilkens Distilled Salty Teyvat Water",
+    date: "Oct 2023",
+    description:
+      "",
+    image:
+      "https://raw.githubusercontent.com/jaedeebabe-acorda-lspu/jaedee-vercel-portfolio/main/src/images/Projects/2DArt/ibisPaintX/20th%20bday%20ryn%20x%20reve.jpg",
+    tags: [
+      "Blender",
+      "ibis Paint X",
+    ],
+    category: "3d model",
+    webapp: "https://raw.githubusercontent.com/jaedeebabe-acorda-lspu/jaedee-vercel-portfolio/main/src/images/Projects/2DArt/ibisPaintX/20th%20bday%20ryn%20x%20reve.jpg",
+  },
+  {
+    id: 11,
+    title: "Lady Kiira",
+    date: "Jan 2024",
+    description:
+      "",
+    image:
+      "https://raw.githubusercontent.com/jaedeebabe-acorda-lspu/jaedee-vercel-portfolio/main/src/images/Projects/2DArt/ibisPaintX/20th%20bday%20ryn%20x%20reve.jpg",
+    tags: [
+      "Blender",
+    ],
+    category: "3d model",
+    webapp: "https://raw.githubusercontent.com/jaedeebabe-acorda-lspu/jaedee-vercel-portfolio/main/src/images/Projects/2DArt/ibisPaintX/20th%20bday%20ryn%20x%20reve.jpg",
+  },
+  {
+    id: 12,
+    title: "Isometric Room",
+    date: "Jan 2024",
+    description:
+      "",
+    image:
+      "https://raw.githubusercontent.com/jaedeebabe-acorda-lspu/jaedee-vercel-portfolio/main/src/images/Projects/2DArt/ibisPaintX/20th%20bday%20ryn%20x%20reve.jpg",
+    tags: [
+      "Blender",
+    ],
+    category: "3d model",
+    webapp: "https://raw.githubusercontent.com/jaedeebabe-acorda-lspu/jaedee-vercel-portfolio/main/src/images/Projects/2DArt/ibisPaintX/20th%20bday%20ryn%20x%20reve.jpg",
+  },
+  {
+    id: 13,
+    title: "Best Seller Puto-Bao",
+    date: "Jul 2021",
+    description:
+      "",
+    image:
+      "https://raw.githubusercontent.com/jaedeebabe-acorda-lspu/jaedee-vercel-portfolio/main/src/images/Projects/2DArt/ibisPaintX/20th%20bday%20ryn%20x%20reve.jpg",
+    tags: [
+      "Adobe Premiere",
+      "ibis Paint X",
+    ],
+    category: "other proj",
+    webapp: "https://xd.adobe.com/view/0a514401-2105-4398-84a9-a6b2c543bc72-5f02/?fbclid=IwAR3-HUK2kzrGn02hPgxdl8thim0eSk-90poSlxehRBLnpqozAbNBaTdfjzk",
+  },
+  {
+    id: 14,
+    title: "C-Merged",
+    date: "Jul 2022",
+    description:
+      "",
+    image:
+      "https://raw.githubusercontent.com/jaedeebabe-acorda-lspu/jaedee-vercel-portfolio/main/src/images/Projects/2DArt/ibisPaintX/20th%20bday%20ryn%20x%20reve.jpg",
+    tags: [
+      "Adobe Premiere",
+      "ibis Paint X",
+    ],
+    category: "other proj",
     webapp: "https://raw.githubusercontent.com/jaedeebabe-acorda-lspu/jaedee-vercel-portfolio/main/src/images/Projects/2DArt/ibisPaintX/20th%20bday%20ryn%20x%20reve.jpg",
   },
 ];

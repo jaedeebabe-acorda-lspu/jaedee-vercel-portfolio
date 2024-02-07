@@ -135,61 +135,122 @@ const ViewButton = styled.div`
     transition: all 0.6s ease-in-out;
 `;
 
-const Projects = ({openModal,setOpenModal}) => {
-    const [toggle, setToggle] = useState('all');
-    const sortedProjects = [...projects].sort((a, b) => b.id - a.id);
-    const navigate = useNavigate();
-    const handleButtonClick = () => {
-      window.scrollTo({ top: 0, behavior: 'smooth' });
-      navigate('projects');
-    };
-    return (
-      <Container id="projects">
-        <Wrapper>
-          <Title>Projects</Title>
-          <Desc>
-            I have worked 2D art and 3D Model projects. Here are some of my projects.
-          </Desc>
-          <ToggleButtonGroup >
-            {toggle === 'all' ?
-              <ToggleButton active value="all" onClick={() => setToggle('all')}>All</ToggleButton>
-              :
-              <ToggleButton value="all" onClick={() => setToggle('all')}>All</ToggleButton>
-            }
-            <Divider />
-            {toggle === '2d art' ?
-              <ToggleButton active value="2d art" onClick={() => setToggle('2d art')}>2D Illustration(s)</ToggleButton>
-              :
-              <ToggleButton value="2d art" onClick={() => setToggle('2d art')}>2D Illustration(s)</ToggleButton>
-            }
-            <Divider />
-            {toggle === '3d model' ?
-              <ToggleButton active value="3d model" onClick={() => setToggle('3d model')}>3D Model(s)</ToggleButton>
-              :
-              <ToggleButton value="3d model" onClick={() => setToggle('3d model')}>3D Model(s)</ToggleButton>
-            }
-            <Divider />
-            {toggle === 'other proj' ?
-              <ToggleButton active value="other proj" onClick={() => setToggle('other proj')}>Other project(s)</ToggleButton>
-              :
-              <ToggleButton value="other proj" onClick={() => setToggle('other proj')}>Other project(s)</ToggleButton>
-            }
-          </ToggleButtonGroup>
-          <CardContainer>
-            {toggle === 'all' &&
-              sortedProjects.map((project) => (
-                <ProjectCard key={project.id} project={project} openModal={openModal} setOpenModal={setOpenModal} />
-              ))}
-            {sortedProjects
-              .filter((item) => item.category === toggle)
-              .map((project) => (
-                <ProjectCard key={project.id} project={project} openModal={openModal} setOpenModal={setOpenModal} />
-              ))}
-          </CardContainer>
-          <ViewButton onClick={handleButtonClick}>View All Projects</ViewButton>
-        </Wrapper>
-      </Container>
-    )
+
+const Projects = ({ openModal, setOpenModal }) => {
+  const [toggle, setToggle] = useState('all');
+  const sortedProjects = [...projects].sort((a, b) => a.column - b.column); // Sorting by ascending order of the column
+
+  const navigate = useNavigate();
+
+  const handleButtonClick = () => {
+    window.scrollTo({ top: 0, behavior: 'smooth' });
+    navigate('projects');
+  };
+
+  // Separate projects into sections based on the selected toggle
+  let filteredProjects;
+  if (toggle === 'all') {
+    filteredProjects = sortedProjects;
+  } else {
+    filteredProjects = sortedProjects.filter((item) => item.category === toggle);
   }
-  
-  export default Projects
+
+  // Separate projects into 2D art, 3D model, and other sections
+  const twoDArtProjects = filteredProjects.filter((item) => item.category === '2d art').slice(0, 3);
+  const threeDModelProjects = filteredProjects.filter((item) => item.category === '3d model').slice(0, 3);
+  const otherProjects = filteredProjects.filter((item) => item.category === 'other proj').slice(0, 2);
+
+  return (
+    <Container id="projects">
+      <Wrapper>
+        <Title>Projects</Title>
+        <Desc>I have worked on 2D art and 3D Model projects. Here are some of my projects.</Desc>
+        <ToggleButtonGroup>
+          {['all', '2d art', '3d model', 'other proj'].map((category) => (
+            <React.Fragment key={category}>
+              {toggle === category ? (
+                <ToggleButton active onClick={() => setToggle(category)}>
+                  {category === 'other proj' ? 'Other project(s)' : `${category.toUpperCase()}(s)`}
+                </ToggleButton>
+              ) : (
+                <ToggleButton onClick={() => setToggle(category)}>
+                  {category === 'other proj' ? 'Other project(s)' : `${category.toUpperCase()}(s)`}
+                </ToggleButton>
+              )}
+              {category !== 'other proj' && <Divider />}
+            </React.Fragment>
+          ))}
+        </ToggleButtonGroup>
+        <CardContainer>
+          {toggle === 'all' && (
+            <>
+              {twoDArtProjects.map((project) => (
+                <ProjectCard
+                  key={project.id}
+                  project={project}
+                  openModal={openModal}
+                  setOpenModal={setOpenModal}
+                />
+              ))}
+              {threeDModelProjects.map((project) => (
+                <ProjectCard
+                  key={project.id}
+                  project={project}
+                  openModal={openModal}
+                  setOpenModal={setOpenModal}
+                />
+              ))}
+              {otherProjects.map((project) => (
+                <ProjectCard
+                  key={project.id}
+                  project={project}
+                  openModal={openModal}
+                  setOpenModal={setOpenModal}
+                />
+              ))}
+            </>
+          )}
+          {toggle === '2d art' && (
+            <>
+              {twoDArtProjects.map((project) => (
+                <ProjectCard
+                  key={project.id}
+                  project={project}
+                  openModal={openModal}
+                  setOpenModal={setOpenModal}
+                />
+              ))}
+            </>
+          )}
+          {toggle === '3d model' && (
+            <>
+              {threeDModelProjects.map((project) => (
+                <ProjectCard
+                  key={project.id}
+                  project={project}
+                  openModal={openModal}
+                  setOpenModal={setOpenModal}
+                />
+              ))}
+            </>
+          )}
+          {toggle === 'other proj' && (
+            <>
+              {otherProjects.map((project) => (
+                <ProjectCard
+                  key={project.id}
+                  project={project}
+                  openModal={openModal}
+                  setOpenModal={setOpenModal}
+                />
+              ))}
+            </>
+          )}
+        </CardContainer>
+        <ViewButton onClick={handleButtonClick}>View All Projects</ViewButton>
+      </Wrapper>
+    </Container>
+  );
+};
+
+export default Projects;
