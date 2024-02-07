@@ -383,6 +383,6 @@ export const projects = [
       "ibis Paint X",
     ],
     category: "other proj",
-    webapp: "https://raw.githubusercontent.com/jaedeebabe-acorda-lspu/jaedee-vercel-portfolio/main/src/images/Projects/2DArt/ibisPaintX/20th%20bday%20ryn%20x%20reve.jpg",
+    webapp: "https://youtu.be/Ot3Ct1DOBJo",
   },
 ];
