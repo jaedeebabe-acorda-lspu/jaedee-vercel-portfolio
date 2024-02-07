@@ -226,7 +226,7 @@ const index = ({ openModal, setOpenModal }) => {
                         </>
                     )}
                     <ButtonGroup>
-                        <Button href={project?.webapp} target='new'>Click here to see full image</Button>
+                        <Button href={project?.webapp} target='new'>Click here to see full image/video</Button>
                     </ButtonGroup>
                 </Wrapper>
             </Container>
