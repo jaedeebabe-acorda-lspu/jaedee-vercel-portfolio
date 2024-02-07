@@ -406,12 +406,12 @@ export const projects = [
     description:
       "Inspired from a favorite character of mine from Hoyoverse's Detective-Dating Sim Game named 'Tears of Themis'. The guy behind the original wearer of the outfit became my favorite ML (Male Lead) of the game named Vyn Richter.",
     image:
-      "https://raw.githubusercontent.com/jaedeebabe-acorda-lspu/jaedee-vercel-portfolio/main/src/images/Projects/2DArt/ibisPaintX/OneeChannuver2.0.png",
+      "https://raw.githubusercontent.com/jaedeebabe-acorda-lspu/jaedee-vercel-portfolio/main/src/images/Projects/2DArt/ibisPaintX/Onee-Channu-ver-2.0.png",
     tags: [
       "ibis Paint X",
     ],
     category: "2d art",
-    webapp: "https://raw.githubusercontent.com/jaedeebabe-acorda-lspu/jaedee-vercel-portfolio/main/src/images/Projects/2DArt/ibisPaintX/OneeChannuver3.0.png",
+    webapp: "https://raw.githubusercontent.com/jaedeebabe-acorda-lspu/jaedee-vercel-portfolio/main/src/images/Projects/2DArt/ibisPaintX/OneeChannuver2.0.png",
   },
   {
     id: 17,
