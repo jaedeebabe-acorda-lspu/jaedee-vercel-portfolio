@@ -1,8 +1,9 @@
 import React from "react"
-import { useState } from "react"
-import ProjectCard from "../Cards/ProjectCards"
-import { projects } from "../../data/constant"
 import styled from "styled-components";
+import ProjectCard from "../Cards/ProjectCards"
+import { useState } from "react"
+import { projects } from "../../data/constant"
+import { Link as LinkR } from "react-router-dom";
 
 const Container = styled.div`
     background: linear-gradient(343.07deg, rgba(132, 59, 206, 0.06) 5.71%, rgba(132, 59, 206, 0) 64.83%);
@@ -110,9 +111,41 @@ const CardContainer = styled.div`
     
 `;
 
+
+const HomeButton = styled(LinkR)`
+    margin-top: 50px;
+    padding: 8px 18px;
+    border: 3px solid #ff900e;
+    border-radius: 6px;
+    color: #ff900e;
+    text-decoration: none;
+    cursor: pointer;
+    ${({ active, theme }) =>
+        active && `
+    background: ${theme.primary + 20};
+    `
+    }
+    &:hover {
+        background: #ff900e;
+        color: ${({ theme }) => theme.white};     
+        border-color: #ff900e;
+    }
+    @media (max-width: 768px) {
+        padding: 6px 8px;
+        border-radius: 4px;
+    }
+    transition: all 0.6s ease-in-out;
+`;
+
+
 const ProjectPage = ({openModal,setOpenModal}) => {
     const [toggle, setToggle] = useState('all');
     const sortedProjects = [...projects].sort((a, b) => b.id - a.id);
+
+    const handleButtonClick = () => {
+      window.scrollTo({ top: 0, behavior: 'smooth' });
+    };
+
     return (
       <Container>
         <Wrapper>
@@ -156,6 +189,7 @@ const ProjectPage = ({openModal,setOpenModal}) => {
                 <ProjectCard key={project.id} project={project} openModal={openModal} setOpenModal={setOpenModal} />
               ))}
           </CardContainer>
+          <HomeButton to='/' onClick={handleButtonClick}>Home</HomeButton>
         </Wrapper>
       </Container>
     )
