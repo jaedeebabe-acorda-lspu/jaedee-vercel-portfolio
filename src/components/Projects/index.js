@@ -138,7 +138,7 @@ const ViewButton = styled.div`
 
 const Projects = ({ openModal, setOpenModal }) => {
   const [toggle, setToggle] = useState('all');
-  const sortedProjects = [...projects].sort((a, b) => a.column - b.column); // Sorting by ascending order of the column
+  const sortedProjects = [...projects].sort((a, b) => b.id - a.id);
 
   const navigate = useNavigate();
 

@@ -348,7 +348,7 @@ export const projects = [
     description:
       "",
     image:
-      "https://raw.githubusercontent.com/jaedeebabe-acorda-lspu/jaedee-vercel-portfolio/main/src/images/Projects/3DModels/isometric-room.png",
+      "https://raw.githubusercontent.com/jaedeebabe-acorda-lspu/jaedee-vercel-portfolio/main/src/images/Projects/3DModels/isometric-room-thumbnail.png",
     tags: [
       "Blender",
     ],

@@ -13,6 +13,7 @@ const Button = styled.button`
     border-radius: 10px;
     cursor: pointer;
     transition: all 0.8s ease-in-out;
+    
 `;
 
 const Card = styled.div`
@@ -37,6 +38,10 @@ const Card = styled.div`
     &:hover ${Button} {
         display: block;
     }
+    @media only screen and (max-width: 691px) {
+        width: calc(50% - 28px); 
+        height: 100%;
+    }
 `;
 
 const Image = styled.img`
@@ -45,6 +50,9 @@ const Image = styled.img`
     background-color: ${({ theme }) => theme.white};
     border-radius: 10px;
     box-shadow: 0 0 16px 2px rgba(0,0,0,0.3);
+    @media only screen and (max-width: 691px) {
+        height: 100%; 
+    }
 `;
 
 const Tags = styled.div`
@@ -63,6 +71,9 @@ const Tag = styled.span`
     background-color: ${({ theme }) => theme.primary + 15};
     padding: 2px 8px;
     border-radius: 10px;
+    @media only screen and (max-width: 691px) {
+        display: none; 
+    }
 `;
 
 const Details = styled.div`
@@ -84,6 +95,9 @@ const Title = styled.div`
     -webkit-box-orient: vertical;
     overflow: hidden;
     text-overflow: ellipsis;
+    @media only screen and (max-width: 691px) {
+        display: none; 
+    }
 `;
 
 const Date = styled.div`
@@ -106,22 +120,9 @@ const Description = styled.div`
     -webkit-line-clamp: 3;
     -webkit-box-orient: vertical;
     text-overflow: ellipsis;
-`;
-
-const Members = styled.div`
-    display: flex;
-    align-items: center;
-    padding-left: 10px;
-`;
-
-const Avatar = styled.img`
-    width: 38px;
-    height: 38px;
-    border-radius: 50%;
-    margin-left: -10px;
-    background-color: ${({ theme }) => theme.white};
-    box-shadow: 0 0 10px rgba(0,0,0,0.2);
-    border: 3px solid ${({ theme }) => theme.card};
+    @media only screen and (max-width: 691px) {
+        display: none; 
+    }
 `;
 
 const ProjectCards = ({project,setOpenModal}) => {
@@ -138,12 +139,6 @@ const ProjectCards = ({project,setOpenModal}) => {
                 <Date>{project.date}</Date>
                 <Description>{project.description}</Description>
             </Details>
-            <Members>
-                {project.member?.map((member) => (
-                    <Avatar src={member.img}/>
-                ))}
-            </Members>
-            {/* <Button>View Project</Button> */}
         </Card>
     )
 }
